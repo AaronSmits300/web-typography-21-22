@@ -141,41 +141,75 @@ You probably want to change the styling.
 }
 
 /* K voice */
+.p3 span{
+	opacity: 0;
+}
 .p3.on {
+	opacity:1;
 	color:var(--joe-kleur);
 	transition: 1s;
 	font-size:20px;
-
+	font-style: italic;
 	background-color: rgb(0, 0, 0);
-	padding:6px 6px;
+	padding:12px 12px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
 	0 0 0 4px hsl(0, 0%, 7%);
+}
+.p3::first-letter {
+	opacity:1;
+	font-size: 30px;
+}
+.p3.on span{
+	opacity:1;
+}
+
+.p4 span{
+	opacity: 0;
 }
 .p4.on {
+	opacity:1;
 	color:var(--joe-kleur);
 	transition: 1s;
 	font-size:20px;
-
+	font-style: italic;
 	background-color: rgb(0, 0, 0);
-	padding:6px 6px;
+	padding:12px 12px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
 	0 0 0 4px hsl(0, 0%, 7%);
 }
+.p4::first-letter {
+	opacity:1;
+	font-size: 30px;
+}
+.p4.on span{
+	opacity:1;
+}
+.p5 span{
+	opacity: 0;
+}
 .p5.on {
+	opacity:1;
 	color:var(--joe-kleur);
 	transition: 1s;
 	font-size:20px;
-
+	font-style: italic;
 	background-color: rgb(0, 0, 0);
-	padding:6px 6px;
+	padding:12px 12px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
 	0 0 0 4px hsl(0, 0%, 7%);
+}
+.p5::first-letter {
+	opacity:1;
+	font-size: 30px;
+}
+.p5.on span{
+	opacity:1;
 }
 
 .p6 {
@@ -213,20 +247,32 @@ You probably want to change the styling.
 
 	display:block;
 }
+
+.p7 span{
+	opacity: 0;
+}
 .p7.on {
-	color:var(--srs-kleur);
+	opacity:1;
+	color:var(--joe-kleur);
 	transition: 1s;
-
 	font-size:20px;
-
-	background-color: rgb(255, 255, 255);
-	padding:6px 6px;
-	border-radius: 1px;
+	font-style: italic;
+	background-color: rgb(0, 0, 0);
+	padding:12px 12px;
+	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-    0 0 0 3px hsl(0, 0%, 18%),
-	0 0 0 6px hsl(0, 0%, 92%);
+	0 0 0 4px hsl(0, 0%, 7%);
 }
+.p7::first-letter {
+	opacity:1;
+	font-size: 30px;
+}
+.p7.on span{
+	opacity:1;
+}
+
+
 .p8.on{
 	left: 460px;
 	right: 460px;
@@ -253,25 +299,22 @@ You probably want to change the styling.
 .p9.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
-
-	background-color: rgb(0, 0, 0);
-	padding:6px 6px;
-	border-radius: 2px;
-	box-shadow:
-    0 0 0 2px hsl(0, 0%, 100%);
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);;
+	0 0 0 4px hsl(0, 0%, 7%);
 }
 .p10.on {
 	transition: 0.3s;
@@ -318,19 +361,22 @@ You probably want to change the styling.
 .p12.on {
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);;
+	0 0 0 4px hsl(0, 0%, 7%);
 }
 
 .p13.on {
@@ -378,19 +424,22 @@ You probably want to change the styling.
 .p15.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);;
+	0 0 0 4px hsl(0, 0%, 7%);
 }
 .p16.on{
 	transition: 0.3s;
@@ -437,19 +486,22 @@ You probably want to change the styling.
 .p18.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);;	
+	0 0 0 4px hsl(0, 0%, 7%);	
 }
 .p19.on{
 	left: 460px;
@@ -477,19 +529,22 @@ You probably want to change the styling.
 .p20.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);;	
+	0 0 0 4px hsl(0, 0%, 7%);
 }
 .p21.on{
 	transition: 0.3s;
@@ -535,19 +590,23 @@ You probably want to change the styling.
 .p23.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);	}
+	0 0 0 4px hsl(0, 0%, 7%);
+}
 .p24.on{
 	transition: 0.3s;
 	left: 460px;
@@ -593,12 +652,15 @@ You probably want to change the styling.
 .p26.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
@@ -651,19 +713,22 @@ You probably want to change the styling.
 .p29.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);	
+	0 0 0 4px hsl(0, 0%, 7%);
 }
 .p30.on{
 	transition: 0.3s;
@@ -687,19 +752,22 @@ You probably want to change the styling.
 .p31.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);	
+	0 0 0 4px hsl(0, 0%, 7%);
 }
 .p32.on{
 	transition: 0.3s;
@@ -745,12 +813,15 @@ You probably want to change the styling.
 .p34.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
@@ -803,19 +874,22 @@ You probably want to change the styling.
 .p37.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
 	border-radius: 2px;
 	box-shadow:
     0 0 0 2px hsl(0, 0%, 100%),
-	0 0 0 4px hsl(0, 0%, 7%);	
+	0 0 0 4px hsl(0, 0%, 7%);
 }
 .p38.on{
 	left: 460px;
@@ -843,12 +917,15 @@ You probably want to change the styling.
 .p39.on{
 	color:var(--joe-kleur);
 	margin-top:4em;
-	margin-left: 255px;
-	left: 100;
-	right: 100;
+	left: 460px;
+	right: 460px;
+
 	text-align: center;
 
 	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
@@ -878,8 +955,7 @@ You probably want to change the styling.
   	padding: 12px;
   	color: white;
   	background-color: black;
-	  opacity:1
-
+	opacity:1
 }
 
 .p40.on span:nth-of-type(-n+7) {
@@ -892,13 +968,17 @@ You probably want to change the styling.
 	transition:0s 1s;
 }
 
-
 .p41.on {
 	color:var(--joe-kleur);
 	transition: 0.3s;
-	margin-left: 6em;
-
-	font-size:20px;
+	left: 460px;
+	right: 460px;
+	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
+	text-align: center;
+	
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
@@ -910,12 +990,16 @@ You probably want to change the styling.
 .p42.on{
 	color:var(--joe-kleur);
 	transition: 0.3s;
-	margin-left: 6em;
 	margin-top: 2em;
 
 
-	font-size:20px;
-
+	left: 460px;
+	right: 460px;
+	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
+	text-align: center;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
@@ -927,12 +1011,15 @@ You probably want to change the styling.
 .p43.on {
 	color:var(--joe-kleur);
 	transition: 0.3s;
-	margin-left: 6em;
 	margin-top: 3em;
 
-
-	font-size:20px;
-
+	left: 460px;
+	right: 460px;
+	font-size:25px;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 400;
+	text-align: center;
 
 	background-color: rgb(0, 0, 0);
 	padding:6px 6px;
@@ -988,10 +1075,611 @@ You probably want to change the styling.
 	color: black;
 	font-weight: 600;
 }
-
 .p47.on{
 	color: var(--srs-kleur);
-	font-weight:1000
+	font-weight:1000;
+}
+
+
+
+.p48.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p49.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:25px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p50.on {
+	transition: 0.3s;
+	left: 460px;
+	right: 460px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 600;
+	font-size: 20px;	
+
+  	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 10%, 95% 10%, 100% 25%, 100% 75%, 95% 90%, 5% 90%, 0 75%, 0 25%);
+  	padding: 12px;
+  	color: white;
+  	background-color: black;
+}
+.p51.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p52.on {
+	transition: 0.3s;
+	left: 460px;
+	right: 460px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 600;
+	font-size: 20px;	
+
+  	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 10%, 95% 10%, 100% 25%, 100% 75%, 95% 90%, 5% 90%, 0 75%, 0 25%);
+  	padding: 12px;
+  	color: white;
+  	background-color: black;
+}
+.p53.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p54.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p55.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);		
+}
+.p56.on {
+	transition: 0.3s;
+	left: 460px;
+	right: 460px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 600;
+	font-size: 20px;	
+
+  	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 10%, 95% 10%, 100% 25%, 100% 75%, 95% 90%, 5% 90%, 0 75%, 0 25%);
+  	padding: 12px;
+  	color: white;
+  	background-color: black;
+}
+.p57.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p58.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p59.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p60.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);		
+}
+.p61.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p62.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p63.on {
+	transition: 0.3s;
+	left: 460px;
+	right: 460px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 600;
+	font-size: 20px;	
+
+  	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 10%, 95% 10%, 100% 25%, 100% 75%, 95% 90%, 5% 90%, 0 75%, 0 25%);
+  	padding: 12px;
+  	color: white;
+  	background-color: black;
+}
+.p64.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p65.on {
+	transition: 0.3s;
+	left: 460px;
+	right: 460px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 600;
+	font-size: 20px;	
+
+  	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 10%, 95% 10%, 100% 25%, 100% 75%, 95% 90%, 5% 90%, 0 75%, 0 25%);
+  	padding: 12px;
+  	color: white;
+  	background-color: black;
+}
+.p66.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p67.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p68.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p69.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p70.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p71.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p72.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p73.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p74.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p75.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p76.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p77.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p78.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p79.on{
+	left: 460px;
+	right: 460px;
+	margin-top:-10px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: Normal;
+	font-weight: 900;
+	font-size: 30px;
+
+	border: 30px solid rgb(255, 255, 255);
+  	border-left: 5px solid rgb(255, 255, 255);
+  	border-right: 5px solid rgb(255, 255, 255);
+  	border-bottom: 30px solid rgb(255, 255, 255);
+	clip-path: polygon(5% 20%, 95% 20%, 100% 25%, 100% 75%, 95% 80%, 5% 80%, 0 75%, 0 25%);
+  	padding: 10px;
+  	color: white;
+  	background-color: black;
+
+	animation-name: comptext;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+.p80.on {
+	color:var(--joe-kleur);
+	margin-top:4.5em;
+	text-align: center;
+
+	font-size:20px;
+	background-color: rgb(0, 0, 0);
+	padding:6px 6px;
+	border-radius: 2px;
+	box-shadow:
+    0 0 0 2px hsl(0, 0%, 100%),
+	0 0 0 4px hsl(0, 0%, 7%);	
+}
+.p81.on {
+	transition: 0.3s;
+	left: 460px;
+	right: 460px;
+	text-align: center;
+	font-family: "Brenner Mono";
+	font-style: italic;
+	font-weight: 900;
+	font-size: 23px;	
+
+  	border: 30px solid rgb(73, 9, 9);
+  	border-left: 5px solid rgb(73, 9, 9);
+  	border-right: 5px solid rgb(73, 9, 9);
+  	border-bottom: 30px solid rgb(73, 9, 9);
+	clip-path: polygon(5% 10%, 95% 10%, 100% 25%, 100% 75%, 95% 90%, 5% 90%, 0 75%, 0 25%);
+  	padding: 12px;
+  	color: rgb(255, 103, 103);
+  	background-color: black;
+	
 }
 
 /* **********************************************
@@ -1155,7 +1843,7 @@ Sounds.
 
 	animation-name: pulse2;
 	animation-duration: 20s;
-	animation-delay: 13s;
+	animation-delay: 7s;
 	animation-timing-function: auto;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
@@ -1204,12 +1892,12 @@ Sounds.
 	animation-iteration-count: 1;
 }
 
-/* .sound13 iframe{
+.sound13 iframe{
 	animation-name: intenseiframe;
-	animation-duration: 10s;
+	animation-duration: 28.8s;
 	animation-timing-function: auto;
 	animation-iteration-count: 1;
-} */
+}
 
 .sound17 iframe{
 	animation-name: iframeglow;
@@ -1243,7 +1931,6 @@ Sounds.
 	90% { transform: translate(1px, 2px); }
 	100% { transform: translate(1px, -2px); }
 }
-
 
 @keyframes gradient {
 	0% {
@@ -1363,5 +2050,5 @@ Sounds.
 }
 
 /* te doen:
-contrast tussen scenene groote tekst
+italics toevoegen aan begin
 extra tekst? */
